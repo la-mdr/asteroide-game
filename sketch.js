@@ -195,7 +195,6 @@ if (World.frameCount%30===0) {
 asteroide.scale=0.2
 asteroide.setCollider("circle",0,0,200)
 asteroideg.add(asteroide)
-  asteroide.debug=true
 }
 }
 function laserspawner() {
@@ -209,5 +208,4 @@ var laser = createSprite(vaisseau.x,vaisseau.y);
   laser.velocityX=3*Math.cos(radians(laser.rotation));
   laser.velocityY=3*Math.sin(radians(laser.rotation));
   laser.setCollider("rectangle",-10,0,120,60)
-  laser.debug=true
 }}
