@@ -198,14 +198,14 @@ asteroideg.add(asteroide)
 }
 }
 function laserspawner() {
-if (keyWentDown("space")&& laserg.length<2 ) {
+if (keyWentDown("space")&& laserg.length<3 ) {
 var laser = createSprite(vaisseau.x,vaisseau.y);
   laserg.add(laser)
   laser.addImage(laserImg)
   laser.scale=0.5;
   laser.rotation=vaisseau.rotation;
-  laser.lifetime=100;
-  laser.velocityX=5*Math.cos(radians(laser.rotation));
-  laser.velocityY=5*Math.sin(radians(laser.rotation));
+  laser.lifetime=50;
+  laser.velocityX=6*Math.cos(radians(laser.rotation));
+  laser.velocityY=6*Math.sin(radians(laser.rotation));
   laser.setCollider("rectangle",-10,0,120,60)
 }}
