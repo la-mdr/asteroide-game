@@ -112,7 +112,7 @@ points3.changeAnimation("coeurb3")
     vaisseau.rotation=vaisseau.rotation-5
             
   }      
-  if (keyDown("up")||keyDown("down")) {
+  if (keyDown("z")) {
     vaisseau.velocityX=vaisseau.velocityX+Math.cos(radians(vaisseau.rotation))
     vaisseau.velocityY=vaisseau.velocityY+Math.sin(radians(vaisseau.rotation))   
 vaisseau.changeAnimation("thrust");    
