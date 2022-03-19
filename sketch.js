@@ -4,8 +4,8 @@ var nebula,vaisseau,points1,points2,points3,restart;
 var nebulaImg, vaisseauImg,thrustImg,rocherImg,laserImg,explosionImg,coeurImg,coeurbImg,startImg;
 var asteroideg,laserg;
 //dimension zone de jeu
-var LARGEUR = 600;
-var HAUTEUR = 600;
+var LARGEUR = 800;
+var HAUTEUR = 800;
 
 // variables états de jeu
 var vie, score, best,etat;
