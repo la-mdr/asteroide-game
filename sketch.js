@@ -190,7 +190,7 @@ if (World.frameCount%30===0) {
   asteroideg.add(asteroide);
   asteroide.velocityX=Math.random()*10-5
   asteroide.velocityY=Math.random()*10-5
-  asteroide.lifetime=200
+  asteroide.lifetime=300
   asteroide.addImage(rocherImg)
 asteroide.scale=0.2
 asteroide.setCollider("circle",0,0,200)
