@@ -204,8 +204,8 @@ var laser = createSprite(vaisseau.x,vaisseau.y);
   laser.addImage(laserImg)
   laser.scale=0.5;
   laser.rotation=vaisseau.rotation;
-  laser.lifetime=200;
-  laser.velocityX=3*Math.cos(radians(laser.rotation));
-  laser.velocityY=3*Math.sin(radians(laser.rotation));
+  laser.lifetime=300;
+  laser.velocityX=5*Math.cos(radians(laser.rotation));
+  laser.velocityY=5*Math.sin(radians(laser.rotation));
   laser.setCollider("rectangle",-10,0,120,60)
 }}
